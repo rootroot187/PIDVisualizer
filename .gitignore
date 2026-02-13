@@ -1,0 +1,207 @@
+# Build directories
+build/
+Build/
+BUILD/
+cmake-build-*/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Qt
+*.pro.user
+*.pro.user.*
+*.qmlc
+*.jom
+*.autosave
+
+# Qt Creator
+*.creator
+*.creator.user
+*.creator.user.*
+*.includes
+*.files
+*.config
+*.creator.user.2
+*.creator.user.3
+*.creator.user.4
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+PIDVisualizer
+PIDVisualizer.exe
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# IDE - Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IDE - Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDE - CLion
+.idea/
+cmake-build-*/
+
+# IDE - Qt Creator
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Qt MOC, UIC, RCC
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+
+# Qt autogen
+*_autogen/
+*_autogen_timestamp_deps/
+
+# OS
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Python (для модели)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+\#*#
+.*.sw?
+
+# Logs
+*.log
+
+# Coverage reports
+*.gcov
+*.gcda
+*.gcno
+coverage/
+
+# Valgrind
+valgrind-out.*
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Qt deployment
+windeployqt_output/
+
